@@ -3,7 +3,7 @@ var app = express();
 var fs = require('fs');
 
 app.get('/', function(req, res, next){
-    res.send('Moi');
+    res.send('Hi there!');
 });
 
 
